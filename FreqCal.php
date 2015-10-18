@@ -5,7 +5,14 @@
   http://aliff.muazzam.my
     Frequency calculator in Hz.
     Formula:
-        F= 1/ (2*pi*sqrt (L*C))
+        F= 1/(2*pi*sqrt (L*C))
+        
+  HOWTO:
+    $ php FreqCal.php inductor capacitor
+    
+    Example:
+      $ php FreqCal.php 14 12
+      $ 0.012279070441053 // returned value
 */
 
 $inductor = $argv[1];
