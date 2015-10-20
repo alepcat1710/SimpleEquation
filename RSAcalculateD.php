@@ -48,7 +48,7 @@ if (!isset ($argv[1]))
 	die("
             \r  This is how it works:
             \r  php \"{$argv[0]}\" range e_value t_value
-            \r\n  Example: php \"{$argv[0]}\" 200 7 20
+            \r\n  Example: php \"{$argv[0]}\" 20 7 20
 ");
 }
 
