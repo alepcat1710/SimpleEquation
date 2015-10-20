@@ -1,1 +1,1 @@
-# SimpleFormula
+# SimpleEquation
