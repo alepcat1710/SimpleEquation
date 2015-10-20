@@ -11,25 +11,15 @@
 * With RSAcalculateD, you can simply find d value without guessing in no time. Just key in the range, e value and t value.
 * 
 * Equation:
-	d = (d * e) % t = 1
+*	d = (d * e) % t = 1
+*
+* HOWTO:
+*	php RSAcalculateD.php range e_value t_value
+*
+* Example:
+*	$ php RSAcalculateD.php 20 7 20
+*	$ FOUND. ->	3
 */
-
-/*
-  October 18, 2015.
-  @alepcat1710
-  http://aliff.muazzam.my
-    Frequency calculator in Hz.
-    Formula:
-        F= 1/(2*pi*sqrt (L*C))
-        
-  HOWTO:
-    $ php FreqCal.php inductor capacitor
-    
-    Example:
-      $ php FreqCal.php 14 12
-      $ 0.012279070441053 // returned value
-*/
-
 
 /*
 The MIT License (MIT)
