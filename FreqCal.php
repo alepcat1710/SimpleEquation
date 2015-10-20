@@ -4,7 +4,7 @@
   @alepcat1710
   http://aliff.muazzam.my
     Frequency calculator in Hz.
-    Formula:
+    Equation:
         F= 1/(2*pi*sqrt (L*C))
         
   HOWTO:
